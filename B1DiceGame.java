@@ -1,3 +1,4 @@
+import.java.util.Random
 class B1DiceGame extends ConsoleProgram {
 
   /**
@@ -6,7 +7,12 @@ class B1DiceGame extends ConsoleProgram {
   */
   
   public void run() {
-    
+    for (int intdice = 0; intdice < 100; intdice = intdice+1) {
+
+System.out.println(intdice);
+
+
+    }
   }
 }
 
